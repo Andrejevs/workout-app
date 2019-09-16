@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="501.0" prefWidth="490.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="83.0" layoutY="40.0" prefHeight="34.0" prefWidth="490.0" styleClass="drag-line" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="14.0" layoutY="9.0" text="CALENDAR" textFill="WHITE" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="6.0">
+               <font>
+                  <Font name="Arial Bold" size="19.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnClose" layoutX="463.0" layoutY="12.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="16.0" styleClass="close-button" textFill="#9f0000" AnchorPane.bottomAnchor="7.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="12.0">
+               <font>
+                  <Font size="6.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="145.0" layoutY="37.0" prefHeight="422.0" prefWidth="490.0" style="-fx-background-color: #192024;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="34.0">
+         <children>
+            <Button fx:id="btnMon" layoutX="60.0" layoutY="25.0" maxHeight="54.0" minHeight="54.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="420.0" styleClass="calendar-button" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+               <graphic>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="textMon" styleClass="calendar-text" text="WORK" AnchorPane.bottomAnchor="8.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="8.0">
+                           <font>
+                              <Font name="Arial Bold" size="25.0" />
+                           </font>
+                        </Label>
+                        <Label text="MON" textFill="#cbcbcb" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="4.0">
+                           <font>
+                              <Font name="Arial Bold" size="32.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </graphic>
+            </Button>
+            <Button fx:id="btnTue" layoutX="70.0" layoutY="35.0" maxHeight="54.0" minHeight="54.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="420.0" styleClass="calendar-button" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="68.0">
+               <graphic>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="textTue" styleClass="calendar-text" text="WORK" AnchorPane.bottomAnchor="8.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="8.0">
+                           <font>
+                              <Font name="Arial Bold" size="25.0" />
+                           </font>
+                        </Label>
+                        <Label text="TUE" textFill="#cbcbcb" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="4.0">
+                           <font>
+                              <Font name="Arial Bold" size="32.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </graphic>
+            </Button>
+            <Button fx:id="btnWed" layoutX="80.0" layoutY="45.0" maxHeight="54.0" minHeight="54.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="420.0" styleClass="calendar-button" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="126.0">
+               <graphic>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="textWed" styleClass="calendar-text" text="WORK" AnchorPane.bottomAnchor="8.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="8.0">
+                           <font>
+                              <Font name="Arial Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label text="WED" textFill="#cbcbcb" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="4.0">
+                           <font>
+                              <Font name="Arial Bold" size="32.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </graphic>
+            </Button>
+            <Button fx:id="btnThu" layoutX="90.0" layoutY="55.0" maxHeight="54.0" minHeight="54.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="420.0" styleClass="calendar-button" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="184.0">
+               <graphic>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="textThu" styleClass="calendar-text" text="WORK" AnchorPane.bottomAnchor="8.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="8.0">
+                           <font>
+                              <Font name="Arial Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label text="THU" textFill="#cbcbcb" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="4.0">
+                           <font>
+                              <Font name="Arial Bold" size="32.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </graphic>
+            </Button>
+            <Button fx:id="btnFri" layoutX="100.0" layoutY="65.0" maxHeight="54.0" minHeight="54.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="420.0" styleClass="calendar-button" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="242.0">
+               <graphic>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="textFri" styleClass="calendar-text" text="WORK" AnchorPane.bottomAnchor="8.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="8.0">
+                           <font>
+                              <Font name="Arial Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label text="FRI" textFill="#cbcbcb" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="4.0">
+                           <font>
+                              <Font name="Arial Bold" size="32.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </graphic>
+            </Button>
+            <Button fx:id="btnSat" layoutX="110.0" layoutY="75.0" maxHeight="54.0" minHeight="54.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="420.0" styleClass="calendar-button" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="300.0">
+               <graphic>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="textSat" styleClass="calendar-text" text="WORK" AnchorPane.bottomAnchor="8.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="8.0">
+                           <font>
+                              <Font name="Arial Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label text="SAT" textFill="#cbcbcb" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="4.0">
+                           <font>
+                              <Font name="Arial Bold" size="32.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </graphic>
+            </Button>
+            <Button fx:id="btnSun" layoutX="120.0" layoutY="85.0" maxHeight="54.0" minHeight="54.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="420.0" styleClass="calendar-button" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="358.0">
+               <graphic>
+                  <AnchorPane>
+                     <children>
+                        <Label fx:id="textSun" styleClass="calendar-text" text="WORK" AnchorPane.bottomAnchor="8.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="8.0">
+                           <font>
+                              <Font name="Arial Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label text="SUN" textFill="#cbcbcb" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="4.0">
+                           <font>
+                              <Font name="Arial Bold" size="32.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="81.0" layoutY="352.0" prefHeight="45.0" prefWidth="200.0" style="-fx-background-color: #192024;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Button fx:id="btnAdd" layoutX="252.0" layoutY="10.0" mnemonicParsing="false" prefWidth="100.0" styleClass="action-button" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="5.0" />
+            <Button fx:id="btnEdit" layoutX="262.0" layoutY="20.0" mnemonicParsing="false" prefWidth="100.0" styleClass="action-button" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="5.0" />
+            <Button fx:id="btnPlay" layoutX="272.0" layoutY="30.0" mnemonicParsing="false" prefWidth="100.0" styleClass="action-button" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="5.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

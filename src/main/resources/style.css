@@ -1,0 +1,146 @@
+.close-button {
+    -fx-font-size: 5pt;
+    -fx-text-fill: white;
+    -fx-shape: "M 700 300 A 50 50 0 1 1 600 300 A 50 50 139 1 1 700 300 Z";
+    -fx-background-color: red;
+}
+
+.close-button:hover {
+    -fx-background-color: radial-gradient(focus-distance 0%, center 50% 50%, radius 55%, #ff512e, #ff512e);
+    -fx-scale-y: 1.01;
+}
+
+.calendar-button {
+    -fx-background-color: #41474c;
+    -fx-background-size: 474px 64px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.calendar-button-today {
+    -fx-effect: innershadow(gaussian, #ff6000, 40, 0, 0, 0 );
+    -fx-background-color: #41474c;
+    -fx-background-size: 474px 64px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.calendar-button:hover {
+    -fx-effect: innershadow( gaussian, rgba( 0, 0, 0, 0.5 ), 10, 0, 5, 5 );
+}
+
+.calendar-button-today:hover {
+    -fx-effect: innershadow(gaussian, #ff6000, 80, 0, 0, 0 );
+}
+
+.action-button {
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.action-button:hover {
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.1;
+}
+
+.drag-line {
+    -fx-background-color: radial-gradient(focus-distance -100%, center 50% 50%, radius 55%, #302f34, #41474c);
+}
+
+.calendar-text {
+    -fx-effect: dropshadow(one-pass-box, white, 30, 0.6, 0, 0);
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+}
+
+.calendar-text-today {
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(one-pass-box, black, 30, 0.6, 0, 0);
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+}
+
+.combo-box-base{
+    -fx-background-color: #41474c;
+    -fx-padding: 2 2;
+}
+
+.combo-box-popup > .list-view {
+    -fx-border-color: black;
+    -fx-background-color: #c8c8c8;
+    -fx-background-insets: 0, 1;
+}
+
+.combo-box-popup > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell {
+    -fx-padding: 1 10;
+    -fx-background: #c8c8c8;
+}
+
+.combo-box-popup > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell:filled:selected {
+    -fx-background: green;
+    -fx-background-color: #41474c;
+}
+
+.combo-box-popup > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell:filled:hover,
+.combo-box-popup > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell:filled:selected:hover {
+    -fx-background-color: #847777;
+}
+
+.combo-box-popup > .list-view > .placeholder > .label {
+    -fx-text-fill: blue;
+}
+
+.combo-box .cell {
+    -fx-text-fill: white;
+    -fx-font: 12px "Arial";
+}
+
+.text-field {
+   -fx-font-family: "Arial";
+   -fx-font-size: 12px;
+   -fx-padding: 1,1,1,1;
+   -fx-background-color: transparent;
+   -fx-text-fill: grey;
+   -fx-text-box-border: transparent;
+   -fx-faint-focus-color: transparent;
+   -fx-focus-color: transparent;
+   -fx-background-radius: 0;
+}
+
+.text-field-add {
+   -fx-font-family: "Arial";
+   -fx-font-size: 12px;
+   -fx-text-fill: white;
+   -fx-control-inner-background: #5e666e;
+   -fx-text-box-border: transparent;
+   -fx-faint-focus-color: transparent;
+   -fx-focus-color: transparent;
+   -fx-background-radius: 0;
+}
+
+.scroll-pane {
+    -fx-background-color: black;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical {
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: white;
+    -fx-background-radius: 5em;
+}
